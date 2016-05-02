@@ -1,0 +1,151 @@
+﻿body {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", arial, sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+	border-width: 0;
+}
+
+@media screen and (min-width: 1201px)
+{
+body {
+	width: 1200px;
+}
+}
+
+@media screen and (max-width: 1200px)
+{
+body {
+	width: 900px;
+}
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 auto;
+	border-width: 0;
+	background-color: #eeeeee;
+}
+
+.header {
+	height: 180px;
+	border-style: solid;
+	border-color: blue;
+}
+
+.main_text {
+	width:100%;
+	min-height:500px;
+}
+
+.left_sider {
+	float: left;
+	width: 20%;
+	min-height: 500px;
+	text-align:center;
+	border-right: 2px #00606b solid;
+#	background-color: yellow;
+}
+
+.right_sider {
+	float: right;
+	width: 79%;
+	min-height:500px;
+	text-align:center;
+	border: 1px red solid;
+#	background-color: green;
+}
+
+.footer {
+	clear: both;
+	border-style: solid;
+	border-color: olive;
+	height: 120px;
+}
+
+.go_to_top {
+	position: fixed;
+	right: 50px;
+	bottom: 20px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+.left_sider .search_view {
+	padding: 30px 0 30px 0;
+	width:98%;
+}
+
+.label_view {
+	text-align: left;
+	width:98%;
+	padding: 0px 20px;
+}
+
+.label_set {
+	display: inline-block;
+	border: 1px gray solid;
+	border-radius: 5px;
+	margin: 10px 20px;
+	padding: 0;
+	background-color: #aacc55;
+}
+
+.label_set a {
+	color:#333;
+	text-decoration:none;
+}
+
+.label_set a:hover {
+	color:#fff;
+	background-color: #CC3300;
+}
+
+.blog_list_page {
+	margin: 20px 0;
+}
+
+.blog_list_page .blog_list {
+	width:100%;
+	height: 80px;
+	padding: 0px;
+	margin: 0px;
+	text-align:left;
+	clear: both;
+}
+
+.blog_list .blog_thumb {
+	float: left;
+}
+
+.blog_list > span {
+	position:relative;
+	left:55%;
+	right: 0;
+	top: 10%;
+	bottom:0;
+}
+
+.blog_list .blog_title {
+	position:relative;
+	left:2%;
+	right: 0;
+}
+
+.blog_title a {
+	color:#003fa1;
+	text-decoration:none;
+}
+
+.blog_title a:hover {
+	color: #cc00f5;
+}
+
+.label_inline {
+	display: inline;
+	position:relative;
+	left:2%;
+	right: 0;
+	padding:0;
+}
