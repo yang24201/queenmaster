@@ -1,0 +1,52 @@
+﻿body {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", arial, sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+	border-width: 0;
+}
+
+@media screen and (min-width: 1201px)
+{
+body {
+	width: 1200px;
+}
+}
+
+@media screen and (max-width: 1200px)
+{
+body {
+	width: 900px;
+}
+}
+
+.go_to_top {
+	position: fixed;
+	right: 50px;
+	bottom: 20px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 auto;
+	border-width: 0;
+	background-color: #F7F7F7;
+}
+
+.header {
+	height: 120px;
+	width:100%;
+	border: 1px red solid;
+}
+
+.func_area {
+	width:100%;
+	border: 1px blue solid;
+}
+
+.main_list {
+	height: 1200px;
+}
